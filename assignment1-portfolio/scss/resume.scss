@@ -8,7 +8,7 @@
   text-align: right;
   padding: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 15px; 
 }
 
 .html {
@@ -16,23 +16,23 @@
   height: 30px;
   background-color: #2196f3;
 }
-
 .css {
   width: 85%;
-  height: 30px;
+    height: 30px;
+
   background-color: #333;
 }
-
 .js {
   width: 90%;
-  height: 30px;
+    height: 30px;
+
   background-color: #2196f3;
 }
-
 .reactjs {
   width: 90%;
-  height: 30px;
-  background-color: #333;
+    height: 30px;
+
+  background-color:  #333;
 }
 
 .skills-text {
@@ -40,7 +40,6 @@
   margin: 0;
   padding: 0;
 }
-
 header {
   background: none;
   background-size: none;
@@ -50,51 +49,47 @@ header .profile-image {
   margin-top: 5px;
 }
 
+
 /*for small devices 768px and below*/
 @media (max-width: 768px) {
   .container {
     width: 75%;
   }
-
   .text-header {
     color: blue;
     text-align: center;
   }
-
   .experience-text {
     text-align: left;
   }
-
   ul li {
     list-style-type: circle;
     margin-bottom: 1px;
   }
 }
+
 /*for large devices 1024 and above*/
 @media (min-width: 1024px) {
+  
   .nav {
     max-width: 1200px;
     text-align: center;
-  }
-  .nav .name {
+
+    .name {
     display: block;
     margin-right: auto;
     color: white;
+    }
   }
-
   .text-header {
     color: blue;
     text-align: center;
   }
-
   .experience-text {
     text-align: left;
   }
-
   ul li {
     list-style-type: circle;
     margin-bottom: 1px;
   }
 }
-
-/*# sourceMappingURL=resume.css.map */

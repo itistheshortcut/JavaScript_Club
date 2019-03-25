@@ -1,8 +1,11 @@
-@media (min-width: 640px){
+@media (min-width: 640px) {
   img {
     height: 10em;
   }
+
   footer {
     margin: 3em;
   }
 }
+
+/*# sourceMappingURL=portfolio.css.map */
