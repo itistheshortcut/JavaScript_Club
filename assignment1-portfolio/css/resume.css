@@ -1,5 +1,5 @@
 .skills-rating {
-  width: 90%;
+  width: 200px;
   height: 30px;
   background-color: #ddd;
 }
@@ -53,7 +53,7 @@ header .profile-image {
 /*for small devices 768px and below*/
 @media (max-width: 768px) {
   .container {
-    width: 75%;
+    width: 90%;
   }
 
   .text-header {

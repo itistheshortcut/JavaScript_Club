@@ -1,5 +1,5 @@
 .skills-rating {
-  width: 90%;
+  width: 200px;
   height: 30px;
   background-color: #ddd;
 }
@@ -8,7 +8,7 @@
   text-align: right;
   padding: 10px;
   color: white;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .html {
@@ -18,21 +18,18 @@
 }
 .css {
   width: 85%;
-    height: 30px;
-
+  height: 30px;
   background-color: #333;
 }
 .js {
   width: 90%;
-    height: 30px;
-
+  height: 30px;
   background-color: #2196f3;
 }
 .reactjs {
   width: 90%;
-    height: 30px;
-
-  background-color:  #333;
+  height: 30px;
+  background-color: #333;
 }
 
 .skills-text {
@@ -40,6 +37,7 @@
   margin: 0;
   padding: 0;
 }
+
 header {
   background: none;
   background-size: none;
@@ -49,11 +47,10 @@ header .profile-image {
   margin-top: 5px;
 }
 
-
 /*for small devices 768px and below*/
 @media (max-width: 768px) {
   .container {
-    width: 75%;
+    width: 90%;
   }
   .text-header {
     color: blue;
@@ -70,15 +67,14 @@ header .profile-image {
 
 /*for large devices 1024 and above*/
 @media (min-width: 1024px) {
-  
   .nav {
     max-width: 1200px;
     text-align: center;
 
     .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+      display: block;
+      margin-right: auto;
+      color: white;
     }
   }
   .text-header {
