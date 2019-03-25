@@ -4,31 +4,66 @@
     <meta charset="utf-8" />
     <title>My Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
-
   <body class="main-body">
-    <div class="main-nav">
-      <ul class="nav">
-        <li class="name">
-          <a href="">John Smith</a>
-        </li>
-        <li><a href="#">Home</a></li>
-        <li><a href="pages/portfolio/portfolio.html">Portfolio</a></li>
-        <li><a href="pages/resume/resume.html">CV</a></li>
-      </ul>
-    </div>
-
     <header>
-      <img src="images/me.jpg" alt="John Smith" class="profile-image" />
-      <h1 class="tag name">Hello, I’m John Smith.</h1>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <nav class="main-nav">
+        <div class="nav-brand">
+          <div class="brand"></div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">John Smith</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+
+    <main id="home">
+      <img src="images/me.jpg" alt="John Smith" class="profile-image" />
+      <h2 class="small-heading">Hello, I’m</h2>
+      <h1 class="big-heading">
+        John
+        <span class="text-tsred">Smith.</span>
+      </h1>
+      <div class="social-icons">
+        <a href="">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+    </main>
 
     <div class="container">
       <div class="row card-items">

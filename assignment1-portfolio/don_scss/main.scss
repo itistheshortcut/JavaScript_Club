@@ -1,0 +1,73 @@
+@import 'config';
+@import 'menu';
+
+// Start main css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @include background();
+  background-color: $tsblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+}
+
+// HEADINGS
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+  &.big-heading {
+    font-size: 6rem;
+  }
+  &.small-heading {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(lighten($color: $tsyellow, $amount: 2), 0.5);
+  }
+}
+
+a {
+  color: $tsdark;
+  text-decoration: none;
+}
+
+// Keep the navbar menu fix on the top
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+// Change the last name color
+.text-tsred {
+  color: $tsred;
+}
+
+main {
+  padding: 2rem;
+  height: 100%;
+
+  .social-icons {
+    margin-top: 1rem;
+    a {
+      padding: 0.4rem;
+      &:hover {
+        color: $tsyellow;
+        @include easeOutTrans();
+      }
+    }
+  }
+
+  &#home {
+    overflow: hidden;
+    img {
+      margin-top: 10vh;
+    }
+  }
+}

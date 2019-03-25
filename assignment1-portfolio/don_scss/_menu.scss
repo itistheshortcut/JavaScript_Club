@@ -1,0 +1,19 @@
+// Menu button
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  top: 35px;
+  right: 35px;
+
+  cursor: pointer;
+  @include easeOutTrans();
+
+  .btn-line {
+    width: 28px;
+    height: 3px;
+
+    margin: 0 0 5px 0;
+    background: $tslight;
+    @include easeOutTrans();
+  }
+}
