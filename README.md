@@ -1,11 +1,22 @@
-# DOM manipulation:
-#Link: https://www.w3schools.com/jsref/dom_obj_document.asp 
+# JavaScript club portfolio project
 
-# The Document Object mondel or DOM
-# when you open the index.html file, it is the document object. 
-# The document object is the root node of the HTML document.
+This is the learning project for the JavasScript club at [The Shortcut](https://theshortcut.org)
 
-#Review: 
+## References
 
-# 1) creatElement()
-# 2) addEventListener()
+Some pre-requistions you need to review from  [W3school](https://www.w3schools.com/jsref/dom_obj_document.asp):
+- The Document Object mondel or DOM
+- when you open the index.html file, it is the document object. 
+- The document object is the root node of the HTML document.
+
+### Review: 
+
+1. creatElement()
+2. addEventListener()
+
+
+## Installations
+
+`git clone https://github.com/itistheshortcut/JavaScript_Club.git`
+
+`cd JavaScript_Club`
