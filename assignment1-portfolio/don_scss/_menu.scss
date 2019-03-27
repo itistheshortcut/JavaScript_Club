@@ -13,7 +13,51 @@
     height: 3px;
 
     margin: 0 0 5px 0;
-    background: $tslight;
+    background: $darkblue;
     @include easeOutTrans();
+  }
+
+  // Rotate into X
+  &.close {
+    transform: rotate(180deg);
+
+    .btn-line {
+      // line 1 rotate 45deg
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      // line 2 hide
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      // line 3 rotate 135deg
+      &:nth-child(3) {
+        transform: rotate(135deg) translate(-6px, 6px);
+      }
+    }
+  }
+}
+
+// Menu Overlay
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+  &.show {
+    visibility: visible;
+  }
+
+  .nav-brand,
+  nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 100%;
   }
 }

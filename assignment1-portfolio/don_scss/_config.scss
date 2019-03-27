@@ -1,14 +1,13 @@
-$tsgreen: #00a99d;
-$tsblue: #4dcce5;
-$tsred: #e8592e;
-$tsyellow: #fdc81e;
-$tsdark: #333;
-$tslight: #f0f0f0;
+$darkblue: #02111b;
+$lightblue: #5eb1bf;
+$medium: #c8d5b9;
+$dark: #656256;
+$light: #eff6ee;
 
 // Background image
 $show-bg-img: true;
 $bg-img: url(../images/bg.jpg);
-$bg-opacity: 0.9;
+$bg-opacity: 0.8;
 
 @mixin background {
   @if $show-bg-img {
@@ -25,7 +24,7 @@ $bg-opacity: 0.9;
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: rgba($tsblue, $bg-opacity);
+        background: rgba($light, $bg-opacity);
       }
     }
   }
