@@ -10,6 +10,6 @@ ___
 - Intermediate Lessons & Concepts: ***OOP, Class, Instances, Array***
 ___
 ## Projects
-- Beginner with Static: ****Portfolio Website****
+- Beginner with Static: ***Portfolio Website***
 - Intermediat with Full stack: ****Portfolio Application****
 ___
