@@ -13,7 +13,7 @@
     height: 3px;
 
     margin: 0 0 5px 0;
-    background: $darkblue;
+    background: set-text-color($light);
     @include easeOutTrans();
   }
 
@@ -51,13 +51,77 @@
   }
 
   .nav-brand,
-  nav {
+  .nav {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     float: left;
     width: 50%;
-    height: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  // Nav side
+  .nav{
+    margin: 0;
+    padding: 0;
+    background: darken($color: $lightblue, $amount: 5);
+    list-style: none;
+    transform: translate3d(0, -100%, 0);
+    @include easeOutTrans();
+
+    &.show{
+      transform: translate3d(0,0,0)
+    }
+  }
+
+  // Brand side
+  .nav-brand{
+    background: $light;
+    @include easeOutTrans();
+    transform: translate3d(0, 100%, 0);
+    &.show{
+      transform: translate3d(0,0,0);
+    }
+    .brand{
+      width: 250px;
+      height: 250px;
+      background: url('../images/me.jpg');
+      background-size: cover;
+      border-radius: 50%;
+      border: solid 3px $lightblue;
+    }
+  }
+
+  .nav-item{
+    transform: translate3d(600px, 0, 0);
+    @include easeOutTrans();
+    &.show{
+      transform: translate3d(0,0,0)
+    }
+  }
+
+  .nav-link{
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: set-text-color($light);
+    text-decoration: none;
+    @include easeOutTrans();
+
+    &:hover{
+      color: $lightblue;
+    }
+  }
+}
+
+// Delay each nav item by 0.1s slide in
+@for $i from 1 through 4 {
+  .nav-item:nth-child(#{$i}){
+    transition-delay: $i * 0.1s;
   }
 }

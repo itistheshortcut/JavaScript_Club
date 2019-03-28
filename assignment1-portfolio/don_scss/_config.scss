@@ -18,7 +18,7 @@ $bg-opacity: 0.8;
 
       &:after {
         content: '';
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 100%;
@@ -33,4 +33,38 @@ $bg-opacity: 0.8;
 // Make ease-out transition
 @mixin easeOutTrans {
   transition: all 1s ease-out;
+}
+
+// Media Query
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
+
+// Function to set text color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return black;
+  } @else {
+    @return white;
+  }
 }

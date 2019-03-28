@@ -1,67 +1,103 @@
-<div class="container">
-  <div class="row card-items">
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Education</h5>
-          <p class="card-text">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="main-body">
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <nav class="main-nav">
+        <div class="nav-brand">
+          <div class="brand"></div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">John Smith</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="about">
+      <!-- <img src="images/me.jpg" alt="John Smith" class="profile-image" /> -->
+      <h2 class="small-heading">Something</h2>
+      <h1 class="big-heading">
+        About
+        <span class="text-blue">Me</span>
+      </h1>
+
+      <div class="about-info">
+        <img src="images/me.jpg" alt="bio-image" class="bio-img" />
+        <div class="bio">
+          <h3 class="text-blue">
+            BIO
+          </h3>
+          <p>
             I am an aspiring web designer with 3 years of experience in
             front-end development. I have worked on mulitple Sprint projects
             using Scrum agile development.
           </p>
-          <button
-            onclick="toggleEducation()"
-            id="educationBtn"
-            class="btn btn-primary btn-sm"
-          >
-            ReadMore
-          </button>
-          <br />
-          <br />
-          <ul class="list-group education" id="educationText">
-            <li class="list-group-item">
-              Haaga-Helia University of Applied Sciences
-            </li>
-            <li class="list-group-item">
-              2019 Helsinki NordicHealthHackathon
-            </li>
-            <li class="list-group-item">2019 The Shortcut</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Skills</h5>
-          <p class="card-text">
+          <p class="">
             My projects includes: tranerapp-update application, restaurant
             application, Book Store application, RSVP application. I used
             JavaScript and ReactJS for the front-end and Java and MariaDB for
             the back-end.
           </p>
-          <button
-            onclick="toggleSkills()"
-            id="skillsBtn"
-            class="btn btn-primary btn-sm"
-          >
-            ReadMore
-          </button>
-          <ul class="skills" id="skillsText">
-            <br />
-            <p id="skillsText">
-              Here is a list of my current technology stacks:
-            </p>
-            <li class="list-group-item list-group-item-action">HTML</li>
-            <li class="list-group-item list-group-item-action">CSS</li>
-            <li class="list-group-item list-group-item-action">
-              JavaScript
-            </li>
-            <li class="list-group-item list-group-item-action">ReactJS</li>
-            <li class="list-group-item list-group-item-action">jQuery</li>
+        </div>
+        <div class="col edu">
+          <h3>Education</h3>
+          <h5>Haaga-Helia University of Applied Sciences</h5>
+          <p>BIT Degree</p>
+        </div>
+
+        <div class="col workexp">
+          <h3>Experience</h3>
+          <h5>The Shortcut</h5>
+          <p>Tech intern</p>
+        </div>
+
+        <div class="col skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
           </ul>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </main>
+
+    <footer id="main-footer">
+      <ul>
+        <li><a href="#" class="social linkedin">LinkedIn</a></li>
+        <li><a href="#" class="social github">Github</a></li>
+      </ul>
+      <p class="copyright">Copyright 2015, John Smith</p>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
