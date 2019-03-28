@@ -220,8 +220,6 @@ In this example:
 
 The `p` will inherit the blue color from `div`, unless there is a rule with color declaration for the `p` element.
 
-## The Cascade
-
 ## Values and Units
 
 ### Notable Length Units
