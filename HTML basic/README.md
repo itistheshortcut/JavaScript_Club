@@ -28,32 +28,33 @@
 </html>
 ```
 
-#####Most popular HTML elements
-######Heading
+##### Most popular HTML elements
+
+###### Heading
 
 ```html
 <h1>Heading 1</h1>
 ```
 
-######Paragraph
+###### Paragraph
 
 ```html
 <p>This is a paragraph.</p>
 ```
 
-######Link
+###### Link
 
 ```html
 <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 ```
 
-#####Image
+##### Image
 
 ```html
 <img src="img_girl.jpg" alt="Girl in a jacket" />
 ```
 
-######Table
+###### Table
 
 ```html
 <table style="width:100%">
@@ -75,7 +76,7 @@
 </table>
 ```
 
-######List
+###### List
 
 ```html
 <ul>
@@ -85,14 +86,14 @@
 </ul>
 ```
 
-######Block
+###### Block
 
 ```html
 <div>Hello</div>
 <span>Hello</span>
 ```
 
-######HTML class
+###### HTML class
 
 ```html
 <div class="cities">
@@ -101,7 +102,7 @@
 </div>
 ```
 
-######HTML ID
+###### HTML ID
 
 ```html
 <h1 id="myHeader">My Header</h1>
