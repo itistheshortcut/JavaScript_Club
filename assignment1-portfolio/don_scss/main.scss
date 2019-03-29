@@ -123,7 +123,7 @@ main {
 //Portfolio
 .projects {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
   img {
     width: 100%;
@@ -134,6 +134,30 @@ main {
       @include easeOutTrans();
     }
   }
+}
+
+// Button Styles
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $lightblue;
+    color: set-text-color($lightblue);
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: $dark;
+  color: set-text-color($dark);
+}
+
+.btn-light {
+  @extend .btn;
+  background: $light;
+  color: set-text-color($light);
 }
 
 #main-footer {

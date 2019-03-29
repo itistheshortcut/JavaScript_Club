@@ -190,7 +190,7 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
@@ -199,6 +199,23 @@ main {
       opacity: 0.8;
       border-color: #5eb1bf;
       transition: all 1s ease-out; }
+
+.btn, .btn-dark, .btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem; }
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
+    background: #5eb1bf;
+    color: black; }
+
+.btn-dark {
+  background: #656256;
+  color: white; }
+
+.btn-light {
+  background: #eff6ee;
+  color: black; }
 
 #main-footer {
   text-align: center;
@@ -212,6 +229,14 @@ main {
       list-style: none;
       display: inline-block;
       padding: 0 1rem; }
+
+@media screen and (min-width: 1171px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -240,8 +265,12 @@ main {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bio-image' 'bio' 'edu' 'workexp' 'skills';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .projects {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .projects {
+    grid-template-columns: 1fr; } }
