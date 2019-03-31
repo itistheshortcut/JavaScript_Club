@@ -136,9 +136,11 @@ The list items will be marked with bullets (small black circles) by default
 <span>Hello</span>
 ```
 
-- A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
-- The <section> element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading (h1-h6 element) as a child of the <section> element.
-- The <div> element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+```
+* A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
+* The <section> element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading (h1-h6 element) as a child of the <section> element.
+* The <div> element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+```
 
 ###### HTML class
 
