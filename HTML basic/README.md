@@ -62,11 +62,15 @@ The end tag is written like the start tag, but with a forward slash inserted bef
 
 h1 defines the most important heading. h6 defines the least important heading
 
+[Learning Source](https://www.w3schools.com/html/html_headings.asp)
+
 ###### Paragraph
 
 ```html
 <p>This is a paragraph.</p>
 ```
+
+[Learning Source](https://www.w3schools.com/html/html_paragraphs.asp)
 
 ###### Link
 
@@ -77,6 +81,8 @@ h1 defines the most important heading. h6 defines the least important heading
 You can click on a link and jump to another document.
 When you move the mouse over a link, the mouse arrow will turn into a little hand.
 
+[Learning Source](https://www.w3schools.com/html/html_links.asp)
+
 ##### Image
 
 ```html
@@ -86,6 +92,7 @@ When you move the mouse over a link, the mouse arrow will turn into a little han
 The alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
 
 The value of the alt attribute should describe the image.
+[Learning Source](https://www.w3schools.com/html/html_images.asp)
 
 ###### Table
 
@@ -111,8 +118,11 @@ The value of the alt attribute should describe the image.
 
 ```
 An HTML table is defined with the <table> tag.
-Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
+Each table row is defined with the <tr> tag. A table header is defined with the <th> tag.
+By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
 ```
+
+[Learning Source](https://www.w3schools.com/html/html_tables.asp)
 
 ###### List
 
@@ -129,6 +139,8 @@ An unordered list starts with the <ul> tag. Each list item starts with the <li> 
 The list items will be marked with bullets (small black circles) by default
 ```
 
+[Learning Source](https://www.w3schools.com/html/html_lists.asp)
+
 ###### Block
 
 ```html
@@ -136,9 +148,13 @@ The list items will be marked with bullets (small black circles) by default
 <span>Hello</span>
 ```
 
-- A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
-- The <section> element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading (h1-h6 element) as a child of the <section> element.
-- The <div> element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+```
+* A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
+* The <section> element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content. Each section should be identified, typically by including a heading (h1-h6 element) as a child of the <section> element.
+* The <div> element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+```
+
+[Learning Source](https://www.w3schools.com/html/html_blocks.asp)
 
 ###### HTML class
 
@@ -149,8 +165,12 @@ The list items will be marked with bullets (small black circles) by default
 </div>
 ```
 
+[Learning Source](https://www.w3schools.com/html/html_classes.asp)
+
 ###### HTML ID
 
 ```html
 <h1 id="myHeader">My Header</h1>
 ```
+
+[Learning Source](https://www.w3schools.com/html/html_id.asp)
