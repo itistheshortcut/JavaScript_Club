@@ -11,6 +11,7 @@ Cascading Style Sheet is a tool that transform the presentation of a document, d
 For assigning a few styles directly to one specific element:
 
 <p style="color: blue">This text should be blue</p>
+
 ```HTML
 <p style="color: blue">This text should be blue</p>
 ```
