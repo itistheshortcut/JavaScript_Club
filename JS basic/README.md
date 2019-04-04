@@ -168,7 +168,7 @@ while (i < 10) {
 }
 ```
 
-- Note: If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.
+- Note: If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser
 
 ##### DO/WHILE LOOP
 
