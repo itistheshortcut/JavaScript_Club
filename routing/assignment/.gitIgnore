@@ -1,0 +1,9 @@
+# dependencies
+
+/node_modules
+/yarn_lock 
+/package_lock
+
+# production
+/build
+
