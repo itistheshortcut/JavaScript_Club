@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>About Arrays</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-area">
+        <h1 class="header">Car List Program</h1>
+        <label>Type</label>
+        <input type="text" id="type" />
+        <label>Model</label>
+        <input type="text" id="model" />
+        <label>Color</label>
+        <input type="text" id="color" />
+        <label>Price</label>
+        <input type="text" id="price" />
+        <button onclick="saveCar()">Save</button>
+        <button onclick="showCar()">Show List</button>
+        <p>List Cars Here</p>
+        <p id="showCar"></p>
+      </section>
+
+      <section class="section-area">
+        <h1 class="header">Car List Program With Objects</h1>
+        <label>Type</label>
+        <input type="text" id="typeObject" />
+        <label>Model</label>
+        <input type="text" id="modelObject" />
+        <label>Color</label>
+        <input type="text" id="colorObject" />
+        <label>Price</label>
+        <input type="text" id="priceObject" />
+        <button onclick="saveCarObject()">Save</button>
+        <button onclick="showCarObject()">Show List</button>
+        <p>List Cars Here</p>
+        <p id="showObjectCar"></p>
+      </section>
+      <footer>&copy; Danny Yen</footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
