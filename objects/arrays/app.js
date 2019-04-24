@@ -46,8 +46,7 @@ const saveCarObject = () => {
     color: carColor,
     price: carPrice
   };
-  myArrObject = { ...carObject };
-  newArr = [...newArr, myArrObject];
+  newArr = [...newArr, carObject];
   alert("Successfully added!");
 };
 
