@@ -26,4 +26,8 @@ console.log(array);
 
 //printing out array of objects
 document.getElementById("root6").innerHTML =
-  array[4].firstName + " " + array[4].lastName;
+  array[4].firstName +
+  " " +
+  array[4].lastName +
+  "<br /> Array length now: " +
+  array.length;

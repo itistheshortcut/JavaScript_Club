@@ -1,12 +1,16 @@
 //initializing an array with no values
 let array = [];
-
+let newArray = ["hello", "hi", "bye", "something"];
+let anotherArray = new Array();
 //adding values
 array[0] = "hello";
 array[1] = "hi";
 array[2] = "bye";
 array[3] = "goodbye";
 
+const showCar = () => {
+  let array = [1, 2, 3];
+};
 //accessing the each array
 console.log("index of 0: " + array[0]);
 console.log("index of 1: " + array[1]);
