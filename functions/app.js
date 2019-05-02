@@ -10,7 +10,7 @@ function addAB(c, d) {
 }
 document.getElementById("root1").innerHTML = "Hello I am from root1: " + addAB(100, 100);
 document.getElementById("root3").innerHTML = "Hello I am from root3: " + addAB(200, 200);
-
+//200 //400
 //second function with no parameters
 function Addab() {
     return a + b;
@@ -25,11 +25,11 @@ document.getElementById("root4").innerHTML = "Hello I am from root4: " + newFunc
 const otherFunc = function (b, c) {
     return b * c;
 }
-
-document.getElementById("root5").innerHTML = "Hello I am from root5: " + otherFunc(10, 10); //100
+document.getElementById("root5").innerHTML = "Hello I am from root5: " +
+    otherFunc(10, 10); //100
 
 const arrowFunct = (a, b) => a + b;
-console.log("I am from arrow function 1" + arrowFunct(1, 2));
+console.log("I am from arrow function1: " + arrowFunct(1, 2));
 
 const arrowFunc = () => a + b;
 console.log("I am from arrowFunc2: " + arrowFunc());
