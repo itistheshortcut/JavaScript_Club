@@ -2,8 +2,11 @@
 
 /node_modules
 /yarn_lock 
-/package_lock
+.package-lock.json
 
 # production
 /build
 
+npm-debug.log
+.DS_Store
+/.env
