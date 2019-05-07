@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "name": "John Smith",
+            "age": "21",
+            "location": "Helsinki Finland",
+            "occupation": "Student"
+        },
+        {
+            "name": "Cameron Diaz",
+            "age": "55",
+            "location": "Hollywood CA USA",
+            "occupation": "Movie Star"
+        },
+        {
+            "name": "Taylor Swift",
+            "age": "24",
+            "location": "Hollywood Blvd CA USA",
+            "occupation": "Singer"
+        },
+        {
+            "name": "Emmanuel Macron",
+            "age": "45",
+            "location": "Paris France",
+            "occupation": "Prime Minister"
+        },
+        {
+            "name": "Stephen Curry",
+            "age": "21",
+            "location": "CA USA",
+            "occupation": "Basketball Player"
+        }
+    ]
+}
