@@ -17,3 +17,4 @@ const displayData = () => {
     xhr.send()
 }
 displayData();
+

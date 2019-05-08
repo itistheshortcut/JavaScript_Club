@@ -1,8 +1,10 @@
-/**
+
 const getData = () => {
     fetch('data.json')
         .then(req => req.json())
         .then(res => {
+            console.log(res);
+            console.log(res.data)
             let html = '';
             res.data.map(data => {
                 html += `<li>
@@ -20,9 +22,8 @@ const getImages = () => {
         .then(res => document.getElementById('root1').innerHTML = res)
 }
 getImages();
-*/
 
-//https://dog.ceo/dog-api/documentation/random
+parseInt("3");
 
 const getRandomData = () => {
     fetch('https://dog.ceo/api/breeds/image/random')
